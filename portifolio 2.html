@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Document</title>
+<style type="text/css">
+	 
+  body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #E7B9DB ;
+ }
+
+{
+	margin: 0;
+	padding: 0;
+}
+
+body, html
+{
+height: 100%;
+width: 100%;
+}
+ 
+.teste 
+{
+background:#DBCAD6   url("imagem/.jpg") repeat right top fixed;  
+}         
+
+.cabecalho
+{
+background-color: black;
+height: 25px;
+}
+
+.principal
+{
+display: flex;
+height: 100%;
+}
+
+.p_esquerda
+{
+display: flex;
+flex-direction: column;
+width: 50%;
+height: 70%;
+}
+
+.cabecalho2
+{
+height: 30px;
+}
+
+.p_direita
+{	
+width: 50%;
+height: 70%;
+}
+
+.xy
+{
+height: 588px;
+width: 514px;
+}
+
+button
+{
+background-color: #262626; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 30px;
+}
+ button:hover{
+            background-color: blue;
+            cursor: pointer;
+        }
+</style>
+
+
+
+<script type="text/javascript">
+    
+function teste()
+{
+window.location.href = "projetos desenvolvidos.html"
+}
+function teste2()
+{
+window.location.href = "portifolio.html"
+}
+function teste3()
+{
+window.location.href = "Meu Contato.html"
+}
+</script>
+
+
+
+</head>
+<body>
+
+
+<div class="principal">
+
+
+<div class="p_esquerda">
+<img src="imagem/foto.png" class="xy">
+</div>
+
+
+<div class="p_direita">
+<h1> Olá, me chamo Érika! </h1>
+<h1>SEGUE ABAIXO COM O MEU:CURRICULO ,PROJETO e MEU CONTATO.</h1>
+
+<br><br>
+
+<div class="botao">
+
+<button onclick="teste3()">Sobre me</button>
+<button onclick="teste2()">Curriculo</button>
+<button onclick="teste()">Projetos</button>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+</body>
+</html>
